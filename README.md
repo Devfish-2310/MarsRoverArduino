@@ -5,7 +5,7 @@ Regolith-X combines a four-wheel-drive mobility platform, Arduino-based embedded
 
 Unlike conventional RC vehicles that only provide remote movement control, Regolith-X integrates mechanical automation into the control architecture. The rover performs coordinated movement sequences involving chassis adjustment, regolith collection, storage, and return navigation. The system demonstrates the integration of mechanical design, electrical hardware, and embedded software for planetary resource extraction applications.
 
-Potential applications include robotic mining systems, planetary exploration vehicles, hazardous environment operations, and autonomous resource collection platforms.
+Potential applications include robotic mining systems, planetary exploration vehicles, hazardous environment operations, and autonomous resource collection platforms. For entire process refer to my Journal: https://docs.google.com/document/d/1Tld30APO1BhVRSncbUSQXPPhKN-1u_evRCHYzAGDoCE/edit?tab=t.0
 
 ## Demo
 

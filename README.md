@@ -61,15 +61,15 @@ Motor commands are interpreted as single-character inputs:
 - `P` — adjusts front collection servos
 
 ## Code
-The rover firmware is programmed in C++ using the Arduino IDE and is contained within mars_rover_controller.ino. The code uses a modular structure, separating Bluetooth command processing, motor control, and servo actuation to improve readability and maintainability.
+The rover firmware is programmed in C++ using the Arduino IDE and is contained within `mars_rover_controller.ino`. The code uses a modular structure, separating Bluetooth command processing, motor control, and servo actuation to improve readability and maintainability.
 
 The Servo.h library is imported to generate PWM signals for servo positioning. Servo objects (servo6 and servo7) are initialised, while motor and servo pins are defined as constants to simplify hardware configuration changes.
 
-Within setup(), motor pins are configured as outputs using pinMode(), servo objects are linked using attach(), and Bluetooth serial communication is established using Serial.begin(9600). The loop() function continuously monitors incoming Bluetooth data using Serial.available(). Received characters are extracted using Serial.read() and passed to the controlMotors() and controlServo() functions for execution.
+Within `setup()`, motor pins are configured as outputs using `pinMode()`, servo objects are linked using `attach()`, and Bluetooth serial communication is established using Serial.begin(9600). The `loop()` function continuously monitors incoming Bluetooth data using `Serial.available()`. Received characters are extracted using `Serial.read()` and passed to the `controlMotors()` and `controlServo()` functions for execution.
 
-The controlMotors() function interprets directional commands and controls motor driver outputs through digitalWrite(). Commands modify motor polarity to achieve forward (F), reverse (B), left (L), right (R), and stop (S) movement through differential steering.
+The `controlMotors()` function interprets directional commands and controls motor driver outputs through `digitalWrite()`. Commands modify motor polarity to achieve forward (F), reverse (B), left (L), right (R), and stop (S) movement through differential steering.
 
-The controlServo() function controls the rover’s collection and ride-height mechanisms. Servo angles are adjusted incrementally using servo.write() within for loops, enabling smoother motion and reducing mechanical stress. The W and U commands synchronously adjust servo positions to raise or lower the chassis, while K and P modify collection mechanism positioning.
+The `controlServo()` function controls the rover’s collection and ride-height mechanisms. Servo angles are adjusted incrementally using `servo.write()` within for loops, enabling smoother motion and reducing mechanical stress. The W and U commands synchronously adjust servo positions to raise or lower the chassis, while K and P modify collection mechanism positioning.
 
 The final firmware architecture separates command interpretation from hardware execution, allowing wireless inputs to be efficiently translated into controlled motor and servo movements while enabling individual subsystem testing.
 

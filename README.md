@@ -9,4 +9,4 @@ Potential applications include robotic mining systems, planetary exploration veh
 
 ## Demo
 
-https://1drv.ms/v/c/0b7b83ded95b22e0/IQDJYFg5TEAsRK7StmORcLLCAcm-5st0S3yBGJUckgDS9lE?e=uFMZq5
+[https://1drv.ms/v/c/0b7b83ded95b22e0/IQDJYFg5TEAsRK7StmORcLLCAcm-5st0S3yBGJUckgDS9lE?e=uFMZq5](https://github.com/user-attachments/assets/0402f1f4-1ebb-4039-bc85-ee39b3072df4)

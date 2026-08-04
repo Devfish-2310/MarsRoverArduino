@@ -1,5 +1,4 @@
 # Regolith-X (Mars Exploration Rover)
-<img width="579" height="435" alt="Image" src="https://github.com/user-attachments/assets/08af221e-afec-466d-a599-b048421085a7" />
 A servo-assisted Mars mining rover prototype designed to navigate simulated Martian terrain, collect regolith, and transport resources using an integrated embedded control system.
 
 Regolith-X combines a four-wheel-drive mobility platform, Arduino-based embedded control, Bluetooth wireless communication, and servo-actuated collection mechanisms into a single robotic system. The rover uses an Arduino Uno as the central processing unit, controlling four DC gear motors through L298N motor drivers and seven servo motors responsible for collection and chassis actuation.

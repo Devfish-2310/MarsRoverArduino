@@ -43,6 +43,11 @@ The adjustable ride-height system is driven by four high-torque servo motors arr
 
 The Arduino firmware was programmed in C++ using the Arduino IDE. During initialisation, motor pins are configured as outputs using `pinMode()`, servo objects are attached using `attach()`, and Bluetooth serial communication is established using `Serial.begin(9600)`. The main loop continuously monitors incoming Bluetooth commands and executes corresponding control functions.
 
+### App Control Interface
+<p align="center">
+  <img width="876" height="413" alt="Image" src="https://github.com/user-attachments/assets/80578180-5714-4d3c-8550-c722ffd5ad64" />
+</p>
+
 Motor commands are interpreted as single-character inputs:
 - `F` — activates forward movement by driving both left and right motor pairs forward
 - `B` — reverses motor direction for backward movement
@@ -55,3 +60,15 @@ Motor commands are interpreted as single-character inputs:
 - `P` — adjusts front collection servos
 
 Before final assembly, all electrical connections were soldered to improve mechanical reliability and prevent wire disconnection during rover movement. The final integrated system places the Arduino Uno, L298N motor driver, Bluetooth module, battery, and voltage regulators within the upper electronics compartment, while the motor and collection mechanisms are mounted within the lower chassis structure.
+
+## Circuitry
+### Servo Connection
+<p align="center">
+  <img width="901" height="565" alt="Image" src="https://github.com/user-attachments/assets/6487bd29-22c3-4c58-a037-ddf27659b850" />
+</p>
+
+### Motor Connection
+<p align="center">
+  <img width="886" height="431" alt="Image" src="https://github.com/user-attachments/assets/299d9d85-ee88-43ce-b5e6-da468899440b" />
+</p>
+

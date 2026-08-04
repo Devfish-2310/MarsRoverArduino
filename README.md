@@ -73,6 +73,7 @@ The `controlServo()` function controls the rover’s collection and ride-height 
 The final firmware architecture separates command interpretation from hardware execution, allowing wireless inputs to be efficiently translated into controlled motor and servo movements while enabling individual subsystem testing.
 
 ## Circuitry
+The rover’s electrical system integrates an Arduino Uno, L298N motor driver, four gearbox DC motors, five servo motors, 3S 11.1V LiPo battery, and voltage regulators. The LiPo battery distributes power through the breadboard, supplying the Arduino and motor driver while voltage regulators step down power for servo operation. The L298N controls four-wheel-drive motor direction, while Bluetooth communication enables wireless control through serial TX/RX signals. All wiring connections were soldered to improve reliability during rover movement and testing.
 ### Servo Connection
 <p align="center">
   <img width="901" height="565" alt="Image" src="https://github.com/user-attachments/assets/6487bd29-22c3-4c58-a037-ddf27659b850" />
@@ -84,6 +85,7 @@ The final firmware architecture separates command interpretation from hardware e
 </p>
 
 ## CAD Mechanical Design
+The rover chassis consists of four laser-cut hardwood plywood panels, providing structural rigidity while maintaining manufacturability. The body design incorporates mounting points, clearance spaces, and internal compartments to accommodate mechanical and electrical subsystems. Iterative CAD refinements ensured compatibility between the chassis, collection mechanism, ride-height system, and electronic components, resulting in a compact and integrated prototype structure.
 ### Full Model
 <p align="center">
   <img width="825" height="756" alt="Image" src="https://github.com/user-attachments/assets/7e7c4fb8-920c-4c7c-ad7a-a802b8b90092" />

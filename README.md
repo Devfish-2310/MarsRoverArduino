@@ -74,46 +74,138 @@ The final firmware architecture separates command interpretation from hardware e
 
 ## Components
 
-### Electrical Components
+## Electrical Components
 
-| Component | Quantity |
-|---|---:|
-| Arduino Uno | 1 |
-| L298N Motor Driver | 1 |
-| HC-05 Bluetooth Module | 1 |
-| 3S 11.1V LiPo Battery | 1 |
-| 2S LiPo Battery (collection system) | 1 |
-| Hobby Gearbox DC Motors | 4 |
-| High Torque Servo Motors (4.2kg) | 5 |
-| DC Voltage Regulators | 2 |
-| Breadboard | 1 |
-| Jumper Wires | Multiple |
-| Soldered Wire Connections | Multiple |
-| Power Switch | 1 |
+<table width="100%">
+<thead>
+<tr>
+<th>Component</th>
+<th>Quantity</th>
+</tr>
+</thead>
 
-### Mechanical Components
+<tbody>
+<tr>
+<td>Arduino Uno</td>
+<td>1</td>
+</tr>
+<tr>
+<td>L298N Motor Driver</td>
+<td>1</td>
+</tr>
+<tr>
+<td>HC-05 Bluetooth Module</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3S 11.1V LiPo Battery</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2S LiPo Battery (collection system)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Hobby Gearbox DC Motors</td>
+<td>4</td>
+</tr>
+<tr>
+<td>High Torque Servo Motors (4.2kg)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>DC Voltage Regulators</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Breadboard</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Jumper Wires</td>
+<td>Multiple</td>
+</tr>
+<tr>
+<td>Soldered Wire Connections</td>
+<td>Multiple</td>
+</tr>
+<tr>
+<td>Power Switch</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
 
-| Component | Quantity |
-|---|---:|
-| Hardwood Plywood Laser-Cut Chassis Panels | 4 |
-| Wheels | 4 |
-| Front Collection Plate | 1 |
-| Collection Plate Arms | 2 |
-| Collection System Housing Arms | 2 |
-| Adjustable Ride Height Gear Mechanism | 1 |
-| Adjustable Ride Height Geared Rails | 2 |
-| Adjustable Ride Height Mounting Plates | 2 |
-| Friction-Fit Motor Mounts | 4 |
-| Interior Separation Walls | Multiple |
-| Electronic Mounting Compartment | 1 |
-| Servo Mounting Brackets | Multiple |
+
+## Mechanical Components
+
+<table width="100%">
+<thead>
+<tr>
+<th>Component</th>
+<th>Quantity</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Hardwood Plywood Laser-Cut Chassis Panels</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Wheels</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Front Collection Plate</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Collection Plate Arms</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Collection System Housing Arms</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Adjustable Ride Height Gear Mechanism</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Adjustable Ride Height Geared Rails</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Adjustable Ride Height Mounting Plates</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Friction-Fit Motor Mounts</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Interior Separation Walls</td>
+<td>Multiple</td>
+</tr>
+<tr>
+<td>Electronic Mounting Compartment</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Servo Mounting Brackets</td>
+<td>Multiple</td>
+</tr>
+</tbody>
+</table>
 
 ## Circuitry
 The circuitry consists of separate motor and servo control circuits connected through the Arduino Uno and supporting power components. The four DC gearbox motors are connected to the L298N motor driver, with the left-side motors connected in parallel and the right-side motors connected in parallel to simplify wiring while maintaining four-wheel-drive functionality. The L298N receives directional control signals from Arduino digital pins 8, 9, 10, and 11, allowing the motor pairs to change polarity for forward, reverse, and turning movements.
 
 The servo circuit connects the collection and ride-height mechanisms to the Arduino through dedicated PWM control signals. The servo motors responsible for mechanical adjustment are connected to Arduino digital pins 6 and 7, allowing front and rear servo groups to be controlled independently. Power for the servo motors is supplied through voltage regulators to provide a stable reduced voltage from the LiPo battery, preventing damage caused by excessive input voltage.
 
-The complete wiring layout integrates the Arduino Uno, L298N motor driver, servo connections, motor connections, Bluetooth module, and power distribution system. All connections were soldered and secured before integration into the chassis to improve reliability during rover operation and minimise failures caused by mechanical vibration.### Servo Connection
+The complete wiring layout integrates the Arduino Uno, L298N motor driver, servo connections, motor connections, Bluetooth module, and power distribution system. All connections were soldered and secured before integration into the chassis to improve reliability during rover operation and minimise failures caused by mechanical vibration.
+### Servo Connection
 <p align="center">
   <img width="901" height="565" alt="Image" src="https://github.com/user-attachments/assets/6487bd29-22c3-4c58-a037-ddf27659b850" />
 </p>

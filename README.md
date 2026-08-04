@@ -1,4 +1,5 @@
 # Regolith-X (Mars Exploration Rover)
+<img width="579" height="435" alt="Image" src="https://github.com/user-attachments/assets/08af221e-afec-466d-a599-b048421085a7" />
 A servo-assisted Mars mining rover prototype designed to navigate simulated Martian terrain, collect regolith, and transport resources using an integrated embedded control system.
 
 Regolith-X combines a four-wheel-drive mobility platform, Arduino-based embedded control, Bluetooth wireless communication, and servo-actuated collection mechanisms into a single robotic system. The rover uses an Arduino Uno as the central processing unit, controlling four DC gear motors through L298N motor drivers and seven servo motors responsible for collection and chassis actuation.
@@ -14,7 +15,6 @@ Potential applications include robotic mining systems, planetary exploration veh
 ## Design Prototype
 
 <p align="center">
-  <img width="579" height="435" alt="Image" src="https://github.com/user-attachments/assets/08af221e-afec-466d-a599-b048421085a7" />
   <img width="729" height="433" alt="Image" src="https://github.com/user-attachments/assets/14feebd3-d514-4890-a72a-665261408882" />
 </p>
 
@@ -85,21 +85,6 @@ The final firmware architecture separates command interpretation from hardware e
 </p>
 
 ## CAD Mechanical Design
-### Collection System
-<p align="center">
-  <img width="922" height="503" alt="Image" src="https://github.com/user-attachments/assets/1f27ea81-ace6-48fc-a4be-2de5fb697a7f" />
-</p>
-
-### Squatting Mechanism
-<p align="center">
-  <img width="918" height="634" alt="Image" src="https://github.com/user-attachments/assets/41095a32-785c-4e6c-a7cd-d444057084e2" />
-</p>
-  
-### Body
-<p align="center">
-  <img width="1240" height="516" alt="Image" src="https://github.com/user-attachments/assets/7cba909c-fb4b-43a2-ac1a-cb559e5257fc" />
-</p>
-
 ### Full Model
 <p align="center">
   <img width="825" height="756" alt="Image" src="https://github.com/user-attachments/assets/7e7c4fb8-920c-4c7c-ad7a-a802b8b90092" />

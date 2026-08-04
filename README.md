@@ -74,7 +74,7 @@ The final firmware architecture separates command interpretation from hardware e
 
 ## Components
 
-## Electrical Components
+### Electrical Components
 
 <table width="100%">
 <thead>
@@ -137,7 +137,7 @@ The final firmware architecture separates command interpretation from hardware e
 </table>
 
 
-## Mechanical Components
+### Mechanical Components
 
 <table width="100%">
 <thead>
@@ -221,4 +221,34 @@ The rover chassis consists of four laser-cut hardwood plywood panels, providing 
 <p align="center">
   <img width="825" height="756" alt="Image" src="https://github.com/user-attachments/assets/7e7c4fb8-920c-4c7c-ad7a-a802b8b90092" />
 </p>
+
+## References
+- [1] Atkinson, N 2024, ‘Challenges facing the human exploration of Mars’, The Planetary Society. Accessed 
+18 March 2025, 
+<https://www.planetary.org/articles/challenges-facing-the-human-exploration-of-mars#:~:text=The%20lack%
+20of%20a%20global,the%20trip%20there%20and%20back> 
+- [2] Drake, N 2024, ‘Why we explore Mars-and what decades of missions have revealed’, National 
+Geographic. Accessed 18 March 2025,  
+<https://www.nationalgeographic.com/science/article/mars-exploration-article> 
+- [3] Williams, E 2025, ‘Mars’, NASA. Accessed 19 March 2025, 
+<https://www.nasa.gov/humans-in-space/humans-to-mars/> 
+- [4] Bisen, N 2019, ‘How to operate HC-05 Bluetooth module with Arduino’, Arduino Uno Magic. Accessed 
+20 February 2025, <https://www.arduinounomagic.com/bluetooth-module-with-arduino/>   
+- [5] Moon, J 2025, ‘WHAT IS NOMINAL GROUP TECHNIQUE?’, ASQ. Accessed 20 March 2025, 
+<https://asq.org/quality-resources/nominal-group-technique> 
+- [6] 2019, ‘Wheels vs Tracks: Advantages and Disadvantages’, Litetrax. Accessed 20 March 2025,  
+<https://litetrax.com/wheels-vs-tracks-advantages-disadvantages/> 
+- [7] ‘Why go to Mars?’, THE EUROPEAN SPACE AGENCY. Accessed 20 March 2025, 
+<https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Why_go_to_Mars> 
+- [8] Ashley, E 2021, ‘Arduino Uno Pinout and Program's’, RS Online. Accessed 19 March 2025,  
+<https://www.rs-online.com/designspark/what-is-Arduino-uno-a-getting-started-guide#:~:text=Arduino%20U
+NO%20is%20a%20low,and%20motors%20as%20an%20output>  
+- [9] 2025, ‘Servo motor basics with Arduino’, Arduino Documentation. Accessed 20 March 2025, 
+<https://docs.arduino.cc/learn/electronics/servo-motors/> 
+- [10] 2025, ‘Basic servo control’, Arduino Documentation. Accessed 21 March 2025, 
+<https://docs.arduino.cc/tutorials/generic/basic-servo-control/> 
+- [11] 2025, ‘Motor Code and circuit’, Arduino Documentation. Accessed 19 March 2025, 
+<https://docs.arduino.cc/learn/electronics/stepper-motors/>  
+- [12] 2023, ‘AC Waveform and AC Circuit Theory’, Electronics Tutorials. Accessed 18 March 2025, 
+<https://www.electronics-tutorials.ws/accircuits/ac-waveform.html> 
 

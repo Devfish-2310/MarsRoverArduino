@@ -225,8 +225,7 @@ The rover chassis consists of four laser-cut hardwood plywood panels, providing 
 ## References
 - [1] Atkinson, N 2024, ‘Challenges facing the human exploration of Mars’, The Planetary Society. Accessed 
 18 March 2025, 
-<https://www.planetary.org/articles/challenges-facing-the-human-exploration-of-mars#:~:text=The%20lack%
-20of%20a%20global,the%20trip%20there%20and%20back> 
+<https://www.planetary.org/articles/challenges-facing-the-human-exploration-of-mars#:~:text=The%20lack%20of%20a%20global,the%20trip%20there%20and%20back> 
 - [2] Drake, N 2024, ‘Why we explore Mars-and what decades of missions have revealed’, National 
 Geographic. Accessed 18 March 2025,  
 <https://www.nationalgeographic.com/science/article/mars-exploration-article> 

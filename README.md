@@ -10,3 +10,23 @@ Potential applications include robotic mining systems, planetary exploration veh
 ## Demo
 
 [https://1drv.ms/v/c/0b7b83ded95b22e0/IQDJYFg5TEAsRK7StmORcLLCAcm-5st0S3yBGJUckgDS9lE?e=uFMZq5](https://github.com/user-attachments/assets/0402f1f4-1ebb-4039-bc85-ee39b3072df4)
+
+## Design Prototype
+
+<img width="729" height="433" alt="Image" src="https://github.com/user-attachments/assets/14feebd3-d514-4890-a72a-665261408882" />
+
+a. Front collection plate 
+b. Front collection plate arms 
+c. Top-mounted electronics 
+d. Adjustable ride height gear 
+e. Adjustable ride height geared rail 
+f. 
+Friction-fit drive motor mount 
+g. Adjustable ride height mounting plate 
+12 
+h. Wheel 
+i. 
+Interior separation walls 
+j. 
+Outer laser cut wall 
+k. Collection system housing arms 

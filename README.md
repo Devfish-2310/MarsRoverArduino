@@ -72,9 +72,48 @@ The `controlServo()` function controls the rover’s collection and ride-height 
 
 The final firmware architecture separates command interpretation from hardware execution, allowing wireless inputs to be efficiently translated into controlled motor and servo movements while enabling individual subsystem testing.
 
+## Components
+
+### Electrical Components
+
+| Component | Quantity |
+|---|---:|
+| Arduino Uno | 1 |
+| L298N Motor Driver | 1 |
+| HC-05 Bluetooth Module | 1 |
+| 3S 11.1V LiPo Battery | 1 |
+| 2S LiPo Battery (collection system) | 1 |
+| Hobby Gearbox DC Motors | 4 |
+| High Torque Servo Motors (4.2kg) | 5 |
+| DC Voltage Regulators | 2 |
+| Breadboard | 1 |
+| Jumper Wires | Multiple |
+| Soldered Wire Connections | Multiple |
+| Power Switch | 1 |
+
+### Mechanical Components
+
+| Component | Quantity |
+|---|---:|
+| Hardwood Plywood Laser-Cut Chassis Panels | 4 |
+| Wheels | 4 |
+| Front Collection Plate | 1 |
+| Collection Plate Arms | 2 |
+| Collection System Housing Arms | 2 |
+| Adjustable Ride Height Gear Mechanism | 1 |
+| Adjustable Ride Height Geared Rails | 2 |
+| Adjustable Ride Height Mounting Plates | 2 |
+| Friction-Fit Motor Mounts | 4 |
+| Interior Separation Walls | Multiple |
+| Electronic Mounting Compartment | 1 |
+| Servo Mounting Brackets | Multiple |
+
 ## Circuitry
-The rover’s electrical system integrates an Arduino Uno, L298N motor driver, four gearbox DC motors, five servo motors, 3S 11.1V LiPo battery, and voltage regulators. The LiPo battery distributes power through the breadboard, supplying the Arduino and motor driver while voltage regulators step down power for servo operation. The L298N controls four-wheel-drive motor direction, while Bluetooth communication enables wireless control through serial TX/RX signals. All wiring connections were soldered to improve reliability during rover movement and testing.
-### Servo Connection
+The circuitry consists of separate motor and servo control circuits connected through the Arduino Uno and supporting power components. The four DC gearbox motors are connected to the L298N motor driver, with the left-side motors connected in parallel and the right-side motors connected in parallel to simplify wiring while maintaining four-wheel-drive functionality. The L298N receives directional control signals from Arduino digital pins 8, 9, 10, and 11, allowing the motor pairs to change polarity for forward, reverse, and turning movements.
+
+The servo circuit connects the collection and ride-height mechanisms to the Arduino through dedicated PWM control signals. The servo motors responsible for mechanical adjustment are connected to Arduino digital pins 6 and 7, allowing front and rear servo groups to be controlled independently. Power for the servo motors is supplied through voltage regulators to provide a stable reduced voltage from the LiPo battery, preventing damage caused by excessive input voltage.
+
+The complete wiring layout integrates the Arduino Uno, L298N motor driver, servo connections, motor connections, Bluetooth module, and power distribution system. All connections were soldered and secured before integration into the chassis to improve reliability during rover operation and minimise failures caused by mechanical vibration.### Servo Connection
 <p align="center">
   <img width="901" height="565" alt="Image" src="https://github.com/user-attachments/assets/6487bd29-22c3-4c58-a037-ddf27659b850" />
 </p>

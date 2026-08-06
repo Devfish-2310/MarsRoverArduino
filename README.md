@@ -126,6 +126,14 @@ The final firmware architecture separates command interpretation from hardware e
 <td>Multiple</td>
 </tr>
 <tr>
+<td>IR Sensor</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ultrasonic Sensor</td>
+<td>1</td>
+</tr>
+<tr>
 <td>Soldered Wire Connections</td>
 <td>Multiple</td>
 </tr>

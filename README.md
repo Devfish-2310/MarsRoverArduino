@@ -213,6 +213,8 @@ The circuitry consists of separate motor and servo control circuits connected th
 The servo circuit connects the collection and ride-height mechanisms to the Arduino through dedicated PWM control signals. The servo motors responsible for mechanical adjustment are connected to Arduino digital pins 6 and 7, allowing front and rear servo groups to be controlled independently. Power for the servo motors is supplied through voltage regulators to provide a stable reduced voltage from the LiPo battery, preventing damage caused by excessive input voltage.
 
 The complete wiring layout integrates the Arduino Uno, L298N motor driver, servo connections, motor connections, Bluetooth module, and power distribution system. All connections were soldered and secured before integration into the chassis to improve reliability during rover operation and minimise failures caused by mechanical vibration.
+
+The control architecture can be extended to support autonomous navigation through the integration of ultrasonic and infrared (IR) sensors. An ultrasonic sensor would provide real-time obstacle detection using time-of-flight distance measurements, while IR sensors could enable line following or edge detection by monitoring reflected infrared light. Sensor feedback could be processed within the Arduino control loop to generate autonomous movement decisions, allowing the rover to perform real-time environmental sensing, obstacle avoidance, and path tracking without Bluetooth input.
 ### Servo Connection
 <p align="center">
   <img width="901" height="565" alt="Image" src="https://github.com/user-attachments/assets/6487bd29-22c3-4c58-a037-ddf27659b850" />

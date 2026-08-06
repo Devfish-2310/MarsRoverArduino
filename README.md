@@ -14,7 +14,7 @@ Potential applications include robotic mining systems, planetary exploration veh
 ## Design Prototype
 
 <p align="center">
-  <img width="729" height="433" alt="Image" src="https://github.com/user-attachments/assets/14feebd3-d514-4890-a72a-665261408882" />
+  <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/14feebd3-d514-4890-a72a-665261408882" />
 </p>
 
 - (a) Front collection plate
